@@ -57,8 +57,8 @@ class Game
   def turn
 
 
-    if valid_move?(player.move)
-      update(player.move, player_1.token)
+    if valid_move?(player_1.move)
+      update(player_2.move, player_1.token)
     # else
     #   turn
     end
