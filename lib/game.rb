@@ -55,12 +55,12 @@ class Game
   end
 
   def turn
-    input = gets.strip
 
-    if valid_move? input
-      move(input, current_player)
-    else
-      turn
+
+    if valid_move?(player.move)
+      update(user_input, player_1.token)
+    # else
+    #   turn
     end
   end
 
