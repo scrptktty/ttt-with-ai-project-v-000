@@ -58,7 +58,7 @@ class Game
 
 
     if valid_move?(player.move)
-      update(user_input, player_1.token)
+      update(player.move, player_1.token)
     # else
     #   turn
     end
